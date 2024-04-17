@@ -125,3 +125,44 @@ button:hover {
 .message {
   margin: 5px;
 }
+
+
+.message {
+  margin-bottom: 10px;
+}
+
+.message p {
+  margin: 0; /* Reset default margin for paragraphs */
+}
+
+.message ul,
+.message ol {
+  margin-top: 5px; /* Adjust margin for lists */
+}
+
+
+#dm{
+  animation: zoom 1s infinite alternate;
+}
+
+@keyframes zoom {
+  0% {
+    transform: scale(0.7);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.copy-right p{
+  color: white;
+  margin: 0;
+  text-align: center;
+  font-size: 12px;
+}
+
+.copy-right{
+  color: white;
+  text-align: center;
+  margin-top: 5px;
+}
